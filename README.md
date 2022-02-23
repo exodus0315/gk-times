@@ -1,6 +1,6 @@
-# gk-times
+# [gk-times.netlify.app](https://gk-times.netlify.app/)
 
-Gukjin News
+GK Times
 
 <br/>
 
