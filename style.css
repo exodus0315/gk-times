@@ -7,7 +7,6 @@
 }
 
 .head-line {
-  margin-top: 0.5em;
   display: flex;
   justify-content: center;
   font-family: "establishRetrosansOTF";
@@ -19,6 +18,15 @@
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge*/
   user-select: none;
+}
+
+#search-box {
+  display: flex;
+  margin: 1em;
+}
+
+#search-box input {
+  margin-right: 0.5em;
 }
 
 .menus {
@@ -40,11 +48,27 @@
 }
 
 .news-img-size {
+  display: block;
   max-width: 100%;
-  max-height: 250px;
+  max-height: 300px;
+  margin: auto;
 }
 
 .news {
   padding: 1em;
   border-bottom: 2px solid black;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+.pagination {
+  padding: 2em 0 1em;
+  justify-content: center;
 }
