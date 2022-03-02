@@ -137,5 +137,8 @@ const moveToPage = (pageNum) => {
 
   getNews();
 };
-searchButton.addEventListener("click", getNewsByKeyword); // 화살표 함수를 사용할 경우 일반 함수와 다르기 때문에 호이스팅이 안됨. 그래서 순서가 중요하기 때문에 addEventListener를 맨 밑으로 보냄(함수 정의보다 아래로, 함수 선언 -> 이벤트)
+
+// searchButton.addEventListener("click", getNewsByKeyword);
+// 화살표 함수를 사용할 경우 일반 함수와 다르기 때문에 호이스팅이 안됨. 그래서 순서가 중요하기 때문에 addEventListener를 맨 밑으로 보냄(함수 정의보다 아래로, 함수 선언 -> 이벤트)
+
 getLatestNews();

@@ -22,7 +22,13 @@
             id="search-input"
             onKeypress="javascript:if(event.keyCode==13){getNewsByKeyword()}"
           />
-          <button type="button" class="btn btn-primary">검색</button>
+          <button
+            type="button"
+            class="btn btn-primary"
+            onclick="getNewsByKeyword()"
+          >
+            검색
+          </button>
         </div>
         <div class="head-line">GK Times</div>
         <div class="menus">
